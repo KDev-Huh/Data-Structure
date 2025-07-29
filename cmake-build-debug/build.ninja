@@ -164,6 +164,99 @@ build polynomial_add2: C_EXECUTABLE_LINKER__polynomial_add2_Debug CMakeFiles/pol
   TARGET_FILE = polynomial_add2
   TARGET_PDB = polynomial_add2.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target matrix2
+
+
+#############################################
+# Order-only phony target for matrix2
+
+build cmake_object_order_depends_target_matrix2: phony || .
+
+build CMakeFiles/matrix2.dir/Chapter03_배열,_구조체,_포인터/program/matrix2.c.o: C_COMPILER__matrix2_unscanned_Debug /Users/huhon/study/Data$ Structure/Chapter03$:배열,$ 구조체,$ 포인터/program/matrix2.c || cmake_object_order_depends_target_matrix2
+  DEP_FILE = CMakeFiles/matrix2.dir/Chapter03_배열,_구조체,_포인터/program/matrix2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/matrix2.dir
+  OBJECT_FILE_DIR = CMakeFiles/matrix2.dir/Chapter03_배열,_구조체,_포인터/program
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target matrix2
+
+
+#############################################
+# Link the executable matrix2
+
+build matrix2: C_EXECUTABLE_LINKER__matrix2_Debug CMakeFiles/matrix2.dir/Chapter03_배열,_구조체,_포인터/program/matrix2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/matrix2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = matrix2
+  TARGET_PDB = matrix2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target malloc
+
+
+#############################################
+# Order-only phony target for malloc
+
+build cmake_object_order_depends_target_malloc: phony || .
+
+build CMakeFiles/malloc.dir/Chapter03_배열,_구조체,_포인터/program/malloc.c.o: C_COMPILER__malloc_unscanned_Debug /Users/huhon/study/Data$ Structure/Chapter03$:배열,$ 구조체,$ 포인터/program/malloc.c || cmake_object_order_depends_target_malloc
+  DEP_FILE = CMakeFiles/malloc.dir/Chapter03_배열,_구조체,_포인터/program/malloc.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/malloc.dir
+  OBJECT_FILE_DIR = CMakeFiles/malloc.dir/Chapter03_배열,_구조체,_포인터/program
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target malloc
+
+
+#############################################
+# Link the executable malloc
+
+build malloc: C_EXECUTABLE_LINKER__malloc_Debug CMakeFiles/malloc.dir/Chapter03_배열,_구조체,_포인터/program/malloc.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/malloc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = malloc
+  TARGET_PDB = malloc.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target malloc2
+
+
+#############################################
+# Order-only phony target for malloc2
+
+build cmake_object_order_depends_target_malloc2: phony || .
+
+build CMakeFiles/malloc2.dir/Chapter03_배열,_구조체,_포인터/program/malloc2.c.o: C_COMPILER__malloc2_unscanned_Debug /Users/huhon/study/Data$ Structure/Chapter03$:배열,$ 구조체,$ 포인터/program/malloc2.c || cmake_object_order_depends_target_malloc2
+  DEP_FILE = CMakeFiles/malloc2.dir/Chapter03_배열,_구조체,_포인터/program/malloc2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/malloc2.dir
+  OBJECT_FILE_DIR = CMakeFiles/malloc2.dir/Chapter03_배열,_구조체,_포인터/program
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target malloc2
+
+
+#############################################
+# Link the executable malloc2
+
+build malloc2: C_EXECUTABLE_LINKER__malloc2_Debug CMakeFiles/malloc2.dir/Chapter03_배열,_구조체,_포인터/program/malloc2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/malloc2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = malloc2
+  TARGET_PDB = malloc2.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/huhon/study/Data Structure/cmake-build-debug
 
-build all: phony main struct_point polynomial_add1 polynomial_add2
+build all: phony main struct_point polynomial_add1 polynomial_add2 matrix2 malloc malloc2
 
 # =============================================================================
 # Built-in targets

@@ -18,7 +18,10 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -36,7 +39,10 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5,
+						6
 					]
 				}
 			],
@@ -47,6 +53,27 @@
 					"id" : "main::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-main-Debug-dc963a5cf5e6e1c6e5b5.json",
 					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "malloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-malloc-Debug-0b5999f176546202554e.json",
+					"name" : "malloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "malloc2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-malloc2-Debug-06d4b33ca4281a468a3d.json",
+					"name" : "malloc2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "matrix2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-matrix2-Debug-f798c0ae2faf8491039a.json",
+					"name" : "matrix2",
 					"projectIndex" : 0
 				},
 				{
