@@ -1,0 +1,18 @@
+# CLion / CMake build files
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+build/
+*.a
+*.o
+*.so
+*.ninja
+*.log
+
+# IDE files
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
